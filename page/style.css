@@ -1,0 +1,32 @@
+:root {
+  --da-red: #bf0000;
+  --da-gold: #f3c547;
+  --da-green: #8cb885;
+  --da-green-rgb-tint: rgba(140, 184, 133, 0.5);
+}
+
+header {
+	background-color: #bf0000;
+	color: white;
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+    height: 50%;
+    width: 100%;
+}
+
+.card {
+	background-color: #bf0000;
+	color: white;
+}
+
+body {
+	min-height: 100%;
+    background:
+		linear-gradient(
+		var(--da-green-rgb-tint),
+		var(--da-green-rgb-tint)),
+		url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+	font-family: 'Dinish';
+	font-weight: 300;
+}

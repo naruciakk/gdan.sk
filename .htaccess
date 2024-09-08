@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^(.*)\.gdan\.sk [OR]
+	RewriteRule ^(.*)$ https://gdan.eu/%1 [R=301,QSA]
+</IfModule>
